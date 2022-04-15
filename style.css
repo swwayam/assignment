@@ -223,7 +223,90 @@ a{
 
 
 /*** Media Queries ****/
-@media screen and (max-width: 480px) {
+@media (max-width: 1300px) {
+    body{
+        margin: 0 ;
+    }
+
+    .nav{
+        justify-content: center;
+    }
+   
+    .main{
+        margin: 0 .5rem;
+        height: 90vh;
+    }
+
+    .main-image{
+        width: 80%;
+        
+    }
+
+    .learn-more{
+        flex-direction: column-reverse;
+        margin: 0 .5rem;
+    }
+
+    .learn-more__title{
+        font-size: 3rem;
+    }
+
+    .learn-more__text{
+        font-size: 1.5rem;
+        font-weight: 200;
+    }
+
+    .learn-more__join{
+        margin-top: 2rem;
+    }
+
+    .learn-more__img{
+        margin-top: 20rem;
+        width: 100%;
+        height: 40rem;
+    }
+}
+
+@media (max-width: 870px) {
+    body{
+        margin: 0;
+    }
+
+    .nav{
+        margin: 1rem 0;   
+    }
+
+
+    .main{
+        height: 50vh;
+    }
+
+    .learn-more{
+        flex-direction: column-reverse;
+        margin: 0 .5rem;
+    }
+
+    .learn-more__title{
+        font-size: 2.5rem;
+    }
+
+    .learn-more__text{
+        font-size: 1.5rem;
+        font-weight: 200;
+    }
+
+    .learn-more__join{
+        margin-top: 2rem;
+    }
+
+    .learn-more__img{
+        margin-top: 15rem;
+        width: 100%;
+        height: 40rem;
+    }
+}
+
+@media (max-width: 480px) {
     body{
         margin: 0;
     }
@@ -276,92 +359,6 @@ a{
   
 }
 
-@media screen and (max-width: 870px) {
-    body{
-        margin: 0;
-    }
-
-    .nav{
-        margin: 1rem 0;   
-    }
 
 
-    .main{
-        margin: 0 .5rem;
-        height: 90vh;
-    }
-
-    .main-image{
-        width: 50%;
-        top: 30vh;
-    }
-
-    .learn-more{
-        flex-direction: column-reverse;
-        margin: 0 .5rem;
-    }
-
-    .learn-more__title{
-        font-size: 2.5rem;
-    }
-
-    .learn-more__text{
-        font-size: 1.5rem;
-        font-weight: 200;
-    }
-
-    .learn-more__join{
-        margin-top: 2rem;
-    }
-
-    .learn-more__img{
-        margin-top: 15rem;
-        width: 100%;
-        height: 40rem;
-    }
-}
-
-@media screen and (max-width: 1300px) {
-    body{
-        margin: 0 ;
-    }
-
-    .nav{
-        justify-content: center;
-    }
-   
-    .main{
-        margin: 0 .5rem;
-        height: 90vh;
-    }
-
-    .main-image{
-        width: 80%;
-        
-    }
-
-    .learn-more{
-        flex-direction: column-reverse;
-        margin: 0 .5rem;
-    }
-
-    .learn-more__title{
-        font-size: 3rem;
-    }
-
-    .learn-more__text{
-        font-size: 1.5rem;
-        font-weight: 200;
-    }
-
-    .learn-more__join{
-        margin-top: 2rem;
-    }
-
-    .learn-more__img{
-        margin-top: 20rem;
-        width: 100%;
-        height: 40rem;
-    }
-}
 
